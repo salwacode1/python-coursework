@@ -1,0 +1,22 @@
+#1 لحساب مساحة المربع
+def calculate_area_square(side):
+  area= side **2
+  return area
+result= calculate_area_square(2)
+print(result)
+#output 4
+
+#لحساب مساحة المستطيل
+def calculate_area(weigth , length):
+  area= weigth * length
+  return area
+result= calculate_area(4 , 6)
+print(result)
+#output 24
+
+#استدعاء من المكتبات باستخدام ايمبورت ماث
+import math
+radius=4
+area= math.pi * radius**2
+print(area)
+#output 50.246788976542
