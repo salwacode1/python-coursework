@@ -1,0 +1,17 @@
+#lab1 the output= (9,2)
+def minimum_and_maximum(values):
+  lowest=min(values)
+  highest=max(values)
+  return highest , lowest
+result= minimum_and_maximum([7,9,3,2])
+print(result)
+
+#lab2the output= student:Salwa , learner:Salwa
+def create_lab(name , prefix="student" , separator=":"):
+  return prefix + separator + name
+print(create_lab("Salwa"))
+print(create_lab("Salwa" , prefix="learner"))
+
+
+#Basic Python functions demonstrating min/max operations and flexible string formatting
+دوال بايثون أساسية لاستخراج القيم العظمى والصغرى وتنسيق النصوص باستخدام المعاملات الافتراضية
